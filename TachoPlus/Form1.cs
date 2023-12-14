@@ -43,6 +43,8 @@ namespace TachoPlus
    
     public partial class Form1 : Form
     {
+
+        public int test = 0;
         //1. Printable Data Handling APIs
         [DllImport("WoosimPrinter.DLL")]
         public static extern void ClearSpool();
